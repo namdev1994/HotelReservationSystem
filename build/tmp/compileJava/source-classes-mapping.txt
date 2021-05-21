@@ -1,2 +1,4 @@
+hotelreservationsystem/Hotel.java
+ hotelreservationsystem.Hotel
 hotelreservationsystem/HotelReservation.java
  hotelreservationsystem.HotelReservation
