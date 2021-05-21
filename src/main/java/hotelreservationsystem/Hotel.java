@@ -3,6 +3,13 @@ package hotelreservationsystem;
 public class Hotel {
     String hotelName;
     int customerRate;
+    int weekDays,weekEndDays;
+
+    public Hotel(String hotelName, int weekDays, int weekEndDays) {
+        this.hotelName = hotelName;
+        this.weekDays = weekDays;
+        this.weekEndDays = weekEndDays;
+    }
 
     public String getHotelName() {
         return hotelName;
